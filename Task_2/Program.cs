@@ -11,13 +11,11 @@ int B = Convert.ToInt32(Console.ReadLine());
 
 if(A > B)
 {
+    Console.Write("max = ");
     Console.Write(A);
-    Console.Write(" > ");
-    Console.Write(B);
 }
 else
 {
+    Console.Write("max = ");
     Console.Write(B);
-    Console.Write(" > ");
-    Console.Write(A);
 }
